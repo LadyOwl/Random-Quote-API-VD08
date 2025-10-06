@@ -29,7 +29,7 @@ def get_random_quote():
         original_quote = data["q"]
         author = data["a"]
 
-        
+
         translated_quote = translate_to_russian(original_quote)
 
         return {
